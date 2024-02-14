@@ -3,8 +3,8 @@ import {Routes, Route,Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='w-full text-[16px] p-2 flex justify-around border-b-slate-100 '>
-        <div className='font-bold'>
+    <div className='w-full text-[16px] p-3 flex justify-around border-b-slate-100 items-center  '>
+        <div className='font-bold '>
          <Link to='/'>Auth App</Link>
         </div>
         <div>
